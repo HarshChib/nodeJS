@@ -1,0 +1,7 @@
+let path=require('path')
+let paths=path.join('folder','subfile1.txt')
+console.log(paths)
+let absolute=path.resolve(__dirname,'folder','subfolder','file.txt')
+console.log(absolute)
+console.log(path.basename(paths))
+console.log(path.basename(absolute))

@@ -1,0 +1,5 @@
+let os=require('os')
+console.log(`User information ${os.userInfo}`)
+console.log(os.version)
+console.log(os.uptime)
+console.log(os.version)
